@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- DEMO de venta, no el sitio oficial del local. Lleva nombre, reseñas y
+     horario reales, por eso va con noindex. Se quita si el local contrata. -->
+<meta name="robots" content="noindex, nofollow">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Receta de la Abuela · Mote con huesillo 100% fruta en San Bernardo</title>
+<meta name="description" content="Mote con Huesillos La Receta de la Abuela — mote con huesillo pura fruta, sin aditivos, en Baquedano 1977, San Bernardo.">
+
+<!--
+  ============================================================
+  DEMO — MOTE CON HUESILLOS LA RECETA DE LA ABUELA (Baquedano 1977, San Bernardo)
+
+  ✅ DATOS REALES VERIFICADOS (10-09-2026)
+  - Google Maps: 4.2★, 6 opiniones, Cafetería.
+  - Dirección: Baquedano 1977, 8050000 San Bernardo.
+  - Place ID real: 0x9662d9c6f68807db:0x3427efa8bf84494e
+  - Coordenadas: -33.6072892, -70.6843803
+  - Cierra a las 20:00 (confirmado por Google).
+  - Servicios según Google: consumo en el lugar y para llevar.
+  - SU PROPIO CARTEL, fotografiado y publicado por ellos, dice textual:
+  -   "RICO MOTE CON HUESILLO · PURA FRUTA 100% · SOLO PARA LLEVAR"
+  -   con VASO GRANDE $1.000 y VASO CHICO $700.
+  - 3 reseñas reales con nombre.
+  - Fotos: 3 fotos propias del local publicadas en su ficha de Google.
+
+  ⚠️ PENDIENTE / NUNCA INVENTADO:
+  - PRECIOS PROBABLEMENTE VIEJOS: $1.000 y $700 salen de su cartel, pero todas sus
+  -   reseñas son de hace 5 años y la foto parece de esa época. La página avisa que
+  -   hay que confirmarlos. ES LO PRIMERO QUE HAY QUE PREGUNTAR.
+  - CONTRADICCIÓN: su cartel dice 'SOLO PARA LLEVAR' y Google dice también consumo en
+  -   el lugar. Aclararlo.
+  - SIN TELÉFONO: Google muestra 'Agregar número de teléfono del lugar'.
+  - SIN SITIO WEB ('Agregar sitio web') y SIN INSTAGRAM ENCONTRADO.
+  -   => Hay que ir al local.
+  - SIN RESEÑAS NUEVAS EN 5 AÑOS. Antes de mandar nada, conviene verificar que el
+  -   local siga funcionando: es el riesgo real de este prospecto.
+  - HORA DE APERTURA: Google solo confirma el cierre (20:00).
+  - Es un negocio de un solo producto, así que la carta es corta a propósito. A cambio,
+  -   la página puede ser muy simple y muy rápida — que es justo lo que le sirve.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-marca" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="48" height="48"><path d="M10 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z" fill="currentColor"/></svg>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <button class="brand" data-tab="inicio">
+      <span class="brand-ico" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="22" height="22"><path d="M10 22h34v18a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14z" fill="currentColor"/></svg>
+      </span>
+      <span class="brand-name">La Receta de la Abuela</span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <button class="nav-link active" data-tab="inicio">Inicio</button>
+      <button class="nav-link" data-tab="nosotros">Nosotros</button>
+      <button class="nav-link" data-tab="carta">Carta</button>
+      <button class="nav-link" data-tab="resenas">Reseñas</button>
+      <button class="nav-link" data-tab="visitanos">Visítanos</button>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-solid btn-sm" data-tab="visitanos">Cómo llegar</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= INICIO ================= -->
+<section class="tab-panel active" data-tab-panel="inicio">
+  <div class="hero">
+    <div class="hero-photo">
+      <img src="fotos/vaso.jpg" alt="Vaso de mote con huesillo de La Receta de la Abuela, con el durazno y el mote a la vista">
+    </div>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Mote con huesillo · Baquedano · San Bernardo</p>
+      <h1 class="reveal">Pura fruta, 100%</h1>
+      <p class="hero-lead reveal">Mote con huesillo hecho como se hacía siempre, sin aditivos, en Baquedano 1977. Para llevar.</p>
+
+      <div class="hero-pills reveal">
+        <span class="pill"><span class="status-dot" id="statusDot"></span><span id="statusText">Consultando horario…</span></span>
+        <span class="pill">★ <strong>4.2</strong> · 6 opiniones en Google</span>
+        <span class="pill">🍑 Sin aditivos</span>
+      </div>
+
+      <div class="hero-ctas reveal">
+        <button class="btn btn-solid" data-tab="carta">Ver la carta</button>
+        <button class="btn btn-ghost" data-tab="visitanos">Cómo llegar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que hacemos</span>
+        <h2 class="section-title">Una sola cosa, bien hecha</h2>
+        
+      </div>
+      <div class="pilares">
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 5h11l-1.2 14.2a2 2 0 0 1-2 1.8H9.7a2 2 0 0 1-2-1.8z"/><path d="M6.9 10h10.2"/><circle cx="10.4" cy="14.4" r=".9"/><circle cx="13.6" cy="16.4" r=".9"/><circle cx="12.6" cy="12.6" r=".9"/></svg></div>
+          <h3>Mote con huesillo</h3>
+          <p>Es lo único que hacen, y su propio cartel lo resume: "rico mote con huesillo, pura fruta 100%".</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 7.2c3.2-2.4 8 .3 7.1 4.6C18.3 15.7 14.6 20 12 20S5.7 15.7 4.9 11.8C4 7.5 8.8 4.8 12 7.2z"/><path d="M12 7.2V20"/><path d="M12.4 6.6c.3-1.6 1.6-2.6 3.2-2.7-.1 1.5-1.2 2.6-2.6 2.9"/></svg></div>
+          <h3>Sin aditivos</h3>
+          <p>"El mejor mote con huesillo de San Bernardo, 100% recomendado y sin aditivos" — cita textual de una reseña real.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.4 10.2h.02M15.6 10.2h.02"/><path d="M8.6 14.6c1.9 1.7 4.9 1.7 6.8 0"/><path d="M4.6 9.6c2.4-1.4 4.8-2 7.4-2s5 .6 7.4 2"/></svg></div>
+          <h3>La receta de la abuela</h3>
+          <p>El nombre no es un eslogan de marketing: es de lo que se trata el negocio. Otra reseña lo confirma: 100% natural, 100% recomendado.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOSOTROS ================= -->
+<section class="tab-panel" data-tab-panel="nosotros">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Quiénes somos</span>
+        <h2 class="section-title">Como lo hacía la abuela</h2>
+      </div>
+      <div class="nosotros-grid">
+        <div class="nosotros-text reveal">
+          <p class="lead">
+            En Baquedano 1977 hacen <strong>mote con huesillo y nada más</strong>: trigo
+            mote, huesillos y su jugo, sin aditivos. Vaso grande o vaso chico, para llevar.
+          </p>
+          <p>
+            Sus reseñas son cortas y todas dicen lo mismo:
+            <em>"el mejor mote con huesillo de San Bernardo"</em>,
+            <em>"excelente, 100% natural, 100% recomendado"</em>,
+            <em>"muy rico, maravilloso sabor"</em>.
+          </p>
+          <div class="badges reveal">
+            <span class="badge">4.2★ · 6 opiniones</span>
+            <span class="badge">Para llevar</span>
+            <span class="badge">Pura fruta 100%</span>
+            <span class="badge">Sin aditivos</span>
+            <span class="badge">Consumo en el lugar</span>
+          </div>
+          
+        </div>
+        <div class="nosotros-fotos reveal">
+          <figure class="foto-grande">
+            <img src="fotos/vaso.jpg" alt="Vaso de mote con huesillo de La Receta de la Abuela" loading="lazy">
+            <figcaption>Un vaso grande</figcaption>
+          </figure>
+          <figure>
+            <img src="fotos/reja.jpg" alt="Cartel de La Receta de la Abuela colgado en la reja del local" loading="lazy">
+          </figure>
+          <figure>
+            <img src="fotos/cartel.jpg" alt="Fachada de La Receta de la Abuela en Baquedano 1977" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARTA ================= -->
+<section class="tab-panel" data-tab-panel="carta">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">La carta</span>
+        <h2 class="section-title">Nuestra carta</h2>
+        <p class="section-sub">Los precios son los que muestra su propio cartel. Ojo: esa foto puede tener varios años, así que conviene confirmarlos en el local.</p>
+      </div>
+      <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Categorías de la carta"></div>
+      <div id="menuPanels"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEÑAS ================= -->
+<section class="tab-panel" data-tab-panel="resenas">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que dicen</span>
+        <h2 class="section-title">4.2 / 5 · 6 opiniones en Google</h2>
+      </div>
+      <div class="resenas-grid">
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"¡El mejor mote con huesillo de San Bernardo! 100% recomendado y sin aditivos."</p>
+          <footer><span class="avatar" aria-hidden="true">D</span>
+            <span class="review-meta"><strong>David</strong>Local Guide · hace 5 años</span></footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"Excelente mote con huesillo, 100% natural, 100% recomendado."</p>
+          <footer><span class="avatar" aria-hidden="true">JP</span>
+            <span class="review-meta"><strong>Joan Peña</strong>hace 5 años</span></footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"¡Muy rico! Maravilloso sabor."</p>
+          <footer><span class="avatar" aria-hidden="true">X</span>
+            <span class="review-meta"><strong>Ximena</strong>hace 5 años</span></footer>
+        </article>
+      </div>
+      <p class="review-cta-bajo reveal">
+        <a href="https://search.google.com/local/writereview?placeid=0x9662d9c6f68807db:0x3427efa8bf84494e" target="_blank" rel="noopener">
+          ¿Nos visitaste? Déjanos tu reseña en Google
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISÍTANOS ================= -->
+<section class="tab-panel" data-tab-panel="visitanos">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Visítanos</span>
+        <h2 class="section-title">Estamos en Baquedano 1977</h2>
+      </div>
+      <div class="visitanos-grid">
+        <div class="visitanos-info reveal">
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 1 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><strong>Baquedano 1977</strong><span>San Bernardo, Región Metropolitana</span></div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div>
+              <strong>Horario</strong>
+              <span>Cierra a las 20:00</span>
+              <span class="nota-fuente">La hora de apertura no está publicada en Google — conviene confirmarla con el local.</span>
+            </div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16v10H4z"/><path d="M4 7l8 6 8-6"/></svg></span>
+            <div>
+              <strong>Contacto</strong>
+              <span class="nota-fuente">El local todavía no tiene teléfono publicado en Google. En cuanto lo tengamos, se agrega acá el botón de WhatsApp.</span>
+            </div>
+          </div>
+          <div class="visitanos-ctas">
+            <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Mote+con+Huesillos+La+Receta+de+la+Abuela+San+Bernardo&destination_place_id=0x9662d9c6f68807db:0x3427efa8bf84494e" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="btn btn-ghost" href="https://waze.com/ul?ll=-33.6072892,-70.6843803&navigate=yes" target="_blank" rel="noopener">Abrir en Waze</a>
+          </div>
+        </div>
+        <div class="map-frame reveal">
+          <!-- Embed REAL: place id y coordenadas de su ficha de Google (10-09-2026) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0!2d-70.6843803!3d-33.6072892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d9c6f68807db%3A0x3427efa8bf84494e!2sMote%20con%20Huesillos%20La%20Receta%20de%20la%20Abuela!5e0!3m2!1ses-419!2scl!4v1789005600000!5m2!1ses-419!2scl"
+            loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+            title="Mapa de Mote con Huesillos La Receta de la Abuela en Baquedano 1977"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <span class="brand-name footer-brand">La Receta de la Abuela</span>
+      <p>Baquedano 1977 · San Bernardo, Región Metropolitana</p>
+      <p class="status-line"><span class="status-dot" id="statusDot2"></span> <span id="statusText2">—</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://search.google.com/local/writereview?placeid=0x9662d9c6f68807db:0x3427efa8bf84494e" target="_blank" rel="noopener">Dejar una reseña</a>
+    </div>
+  </div>
+</footer>
+
+<script src="vida.js"></script>
+<script src="carta-fotos.js"></script>
+<script src="script.js"></script>
+<script src="carrito.js"></script>
+</body>
+</html>
