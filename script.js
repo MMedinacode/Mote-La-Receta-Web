@@ -20,13 +20,13 @@ const MENU = {
       {
         "n": "Vaso grande",
         "p": 1000,
-        "d": "Precio de su propio cartel — conviene confirmarlo, la foto puede tener años",
+        "d": "Precio de nuestro cartel",
         "img": "vaso.jpg"
       },
       {
         "n": "Vaso chico",
         "p": 700,
-        "d": "Precio de su propio cartel — conviene confirmarlo, la foto puede tener años"
+        "d": "Precio de nuestro cartel"
       }
     ]
   }
