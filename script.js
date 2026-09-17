@@ -4,7 +4,7 @@
    PRECIOS LEÍDOS DE SU PROPIO CARTEL (foto de su ficha de Google):
    vaso grande $1.000 y vaso chico $700, sobre un letrero que dice
    "RICO MOTE CON HUESILLO · PURA FRUTA 100% · SOLO PARA LLEVAR".
-   ⚠️ ADVERTENCIA: todas sus reseñas son de hace 5 años y esa foto es
+   ⚠️ ADVERTENCIA: todas nuestras reseñas son de hace 5 años y esa foto es
    probablemente de la misma época, así que estos precios pueden estar
    MUY desactualizados. Se publican porque son literalmente los suyos y
    porque la página avisa que hay que confirmarlos — pero es LO PRIMERO
